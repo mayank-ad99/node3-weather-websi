@@ -1,4 +1,4 @@
-console.log(`Client Side JS file has been loaded.`);
+// console.log(`Client Side JS file has been loaded.`);
 
 //fetch is a browser based API not availaible on backend node script
 

@@ -56,7 +56,7 @@ app.get('/weather', (req, res) => {
 
     // if address query is not present
     console.log(`the request is:  ${req.query.address}`);
-    if(!req.query.address || req.query.address == "") {
+    if(!req.query.address || req.query.address.trim() == "") {
         return res.send({
             error: "You must provide an address"
         })
